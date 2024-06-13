@@ -98,7 +98,7 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    defaultMessage="TurboWarp Flex is not affiliated with TurboWarp, Scratch, the Scratch Team, or the Scratch Foundation."
                     description="Disclaimer that TurboWarp is not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
@@ -319,7 +319,7 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="{APP_NAME} is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
+                                        defaultMessage="{APP_NAME} is a TurboWarp mod designed to run on ChromeOS devices. To run the editor, install the PWA from the address bar or the hamburger menu."
                                         description="Description of TurboWarp on the homepage"
                                         id="tw.home.description"
                                         values={{
