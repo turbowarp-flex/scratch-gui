@@ -478,7 +478,7 @@ GUIComponent.propTypes = {
         width: PropTypes.number,
         height: PropTypes.number
     }),
-    enableCommunity: PropTypes.bool,
+    enableCommunity: false,
     intl: intlShape.isRequired,
     isCreating: PropTypes.bool,
     isEmbedded: PropTypes.bool,
